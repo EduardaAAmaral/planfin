@@ -1,0 +1,105 @@
+.barra_encima {
+    background-color: #FF6900;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.pessoa{
+    border-radius: 50%;
+    max-width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.nome{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.re{
+    font-size: 15px;
+    font-weight:lighter;
+    color: #fff;
+    padding-left: 20px;
+}
+.mostrar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lado_direito{
+    padding: 20px;
+    border: 1px solid #000;
+    margin-right: 20px;
+    background-color: #FFD9BE;
+}
+
+.img {
+    width: 50vw;
+    height: 70vh;
+}
+
+.renda_mensal {
+    padding: 20px;
+    border: 1px solid #000;
+    margin-left: 20px;
+    height: 35vh;
+    width: 40vw;
+    margin-bottom: 35px;
+    background-color: #FFD9BE;
+}
+.possibilidades{
+    padding: 20px;
+    border: 1px solid #000;
+    margin-left: 20px;
+    height: 45vh;
+    width: 40vw;
+    background-color: #FFD9BE;
+    display: flex;
+    flex-direction: column;
+}
+
+.renda {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+input[type='range'] {
+    cursor: pointer;
+  }
+  
+  input[type='range'],
+  input[type='range']::-webkit-slider-runnable-track,
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  }
+  
+  /** 
+   * Use o pseudo-seletor "::-webkit-slider-runnable-track" para customizar o "trilho" do campo.
+   */
+  input[type='range']::-webkit-slider-runnable-track {
+    width: 200px;
+    height: 10px;
+    background: #c8511a;
+  }
+  
+  /** 
+   * Use o pseudo-seletor "::-webkit-slider-thumb" para customizar o "seletor" do campo.
+   */
+  input[type='range']::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    margin-top: -4.5px;
+    background-color: orangered;
+    border-radius: 60px;
+  }
+
+
