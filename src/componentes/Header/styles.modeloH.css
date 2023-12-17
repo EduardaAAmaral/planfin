@@ -1,0 +1,39 @@
+/* Header.css */
+.header-container {
+    background-color: #FF6900;
+    padding: 10px;
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content:space-between;
+    gap: 40px;
+    padding-right: 40px;
+  }
+
+  .do_lado{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .h2{
+    padding-top:10px;
+  }
+
+  .baixo{
+    padding-top: 15px;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  
+  .nav-link:hover {
+    color: yellow; /* Cor ao passar o mouse */
+  }
+  
